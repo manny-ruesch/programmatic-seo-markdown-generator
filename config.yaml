@@ -1,0 +1,16 @@
+# Programmatic SEO Engine Configuration
+project:
+  name: 'SaaS Alternatives Directory'
+  output_dir: './dist/articles'
+  target_language: 'en'
+
+seo:
+  min_word_count: 1200
+  target_keyword_density: 0.015
+  flesch_min_score: 60.0
+  inject_schema: true
+
+model:
+  provider: 'gemini'
+  model_name: 'gemini-2.5-flash'
+  temperature: 0.7
